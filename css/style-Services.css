@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+nav #imglogo {
+  width: 60px;
+  border-radius: 60px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+nav div ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  padding: 20px 0;
+}
+nav a {
+  width: 2%;
+}
+nav div {
+  width: 80%;
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+nav div ul li a {
+  padding: 8px 25px;
+  border-radius: 18px;
+  background: #007893;
+  border: 1px solid #007893;
+  font-size: 17px;
+}
+input {
+  padding: 5px 30px;
+  border-radius: 18px 0 0 18px;
+  border: 1px solid #007893;
+}
+button {
+  padding: 3.2px 15px;
+  border-radius: 0 18px 18px 0;
+  background: #007893;
+  border: 1px solid #007893;
+  font-size: 17px;
+  position: relative;
+  right: 5px;
+  top: 1.5px;
+  color: whitesmoke;
+}
+form {
+  margin: 0 0 5px 0;
+}
+nav div ul li a:hover {
+  background: rgb(255, 255, 255);
+  transition: 0.5s;
+  color: black;
+}
+button:hover {
+  background: rgb(255, 255, 255);
+  transition: 0.5s;
+  cursor: pointer;
+  color: black;
+}
+div div img {
+  width: 140px;
+  height: 149px;
+}
+div div img:hover {
+  width: 150px;
+  height: 169px;
+  transition: 0.7s;
+  cursor: grab;
+}
+div div h3 {
+  color: #007893;
+  margin: 20px 0;
+}
+section h1 {
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+  margin: 20px 0;
+}
+div div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 500px;
+  flex-wrap: wrap;
+}
+div div div {
+  width: 44%;
+  height: 10px;
+}
+div div div div h3 {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: #007893;
+  color: azure;
+  padding: 50px 20px;
+}
+footer div {
+  width: 30%;
+}
+picture {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 15px 0;
+}
+picture h3 {
+  padding: 15px 20px;
+}
+.joj {
+  list-style: none;
+}
+.chil2 input {
+  width: 50px;
+}
+@media (min-width: 485px) and (max-width: 949px) {
+  nav ul li form {
+    display: none;
+  }
+}
+@media (min-width: 0px) and (max-width: 484px) {
+  nav ul li form {
+    display: none;
+  }
+  nav {
+    flex-direction: column;
+  }
+  nav div ul {
+    flex-direction: column;
+  }
+  nav a {
+    width: 100%;
+    text-align: center;
+  }
+  nav div {
+    width: 100%;
+    text-align: center;
+  }
+  nav div ul li {
+    margin: 9px 0;
+  }
+  nav div ul li a {
+    padding: 5px 38%;
+    border-radius: 0;
+    border-radius: 20px;
+  }
+  nav {
+    width: 100%;
+    padding: 0;
+    margin: 10px 0 0 0;
+  }
+  footer {
+    flex-direction: column;
+    margin: 150px 0 0 0;
+    position: relative;
+  }
+  footer div {
+    width: 100%;
+  }
+  div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+    flex-wrap: wrap;
+    align-content: space-around;
+  }
+}

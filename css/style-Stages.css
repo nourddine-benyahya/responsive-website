@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+  background: #007893;
+  color: azure;
+  padding: 50px 20px;
+}
+footer div {
+  width: 30%;
+}
+picture {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 15px 0;
+}
+picture h3 {
+  padding: 15px 20px;
+}
+.joj {
+  list-style: none;
+}
+nav #imglogo {
+  width: 60px;
+  border-radius: 60px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+nav div ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  padding: 20px 0;
+}
+nav a {
+  width: 2%;
+}
+nav div {
+  width: 80%;
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+nav div ul li a {
+  padding: 8px 25px;
+  border-radius: 18px;
+  background: #007893;
+  border: 1px solid #007893;
+  font-size: 17px;
+}
+li form input {
+  padding: 5px 30px;
+  border-radius: 18px 0 0 18px;
+  border: 1px solid #007893;
+}
+li form button {
+  padding: 3.2px 15px;
+  border-radius: 0 18px 18px 0;
+  background: #007893;
+  border: 1px solid #007893;
+  font-size: 17px;
+  position: relative;
+  right: 5px;
+  top: 1.5px;
+  color: whitesmoke;
+}
+div ul li form {
+  margin: 0 0 5px 0;
+}
+nav div ul li a:hover {
+  background: rgb(255, 255, 255);
+  transition: 0.5s;
+  color: black;
+}
+li form button:hover {
+  background: rgb(255, 255, 255);
+  transition: 0.5s;
+  cursor: pointer;
+  color: black;
+}
+.demande {
+  display: flex;
+  flex-direction: row;
+  padding: 50px 200px;
+}
+.demande div p {
+  font-size: 19px;
+  line-height: 40px;
+  letter-spacing: 2px;
+}
+.demande div {
+  width: 60%;
+}
+.demande div h3 {
+  font-size: 30px;
+  color: #007893;
+}
+form {
+  margin: 0 20% 0 20%;
+}
+.father {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+.chil2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+.chil3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+label {
+  display: block;
+}
+#flexRadioDefault1 {
+  display: inline;
+  width: fit-content;
+  margin: 8px 0;
+}
+.chil4 label {
+  display: inline;
+}
+#inputCivilité {
+  padding: 5px 85px;
+  border-radius: 8px;
+}
+#inputDate,
+#inputEmail,
+#inputTéléphone,
+#inputNomPrénom,
+#inputPrénom,
+#inputDate,
+#inputCIN,
+#inputEtablissement,
+#inputNom,
+#inputE-mail {
+  padding: 5px 20px;
+  border-radius: 8px;
+  border: 1px solid #007893;
+}
+#inputétude {
+  padding: 5px 75px;
+  border-radius: 8px;
+}
+#inputDate {
+  padding: 5px 30px;
+  border-radius: 8px;
+  border: 1px solid #007893;
+}
+.chil2,
+.chil3,
+.chil4,
+.chil5,
+.father {
+  margin: 0 0 20px 0;
+}
+.jij {
+  font-size: 18px;
+}
+div div div div form button {
+  padding: 5px 30px;
+  border-radius: 18px;
+  background: #007893;
+  border: 1px solid #007893;
+  font-size: 17px;
+  position: relative;
+  right: 5px;
+  top: 1.5px;
+  color: whitesmoke;
+}
+div div div div form button:hover {
+  background: rgb(255, 255, 255);
+  transition: 0.5s;
+  cursor: pointer;
+  color: black;
+}
+@media (min-width: 485px) and (max-width: 949px) {
+  nav ul li form {
+    display: none;
+  }
+  .demande {
+    padding: 10px 20px;
+  }
+  .demande div p {
+    line-height: 25px;
+    letter-spacing: normal;
+    font-size: 17px;
+  }
+  div div div div form {
+    margin: 0 5px;
+  }
+  .father,
+  .chil1,
+  .chil2,
+  .chil3 {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+@media (min-width: 0px) and (max-width: 484px) {
+  nav ul li form {
+    display: none;
+  }
+  nav {
+    flex-direction: column;
+  }
+  nav div ul {
+    flex-direction: column;
+  }
+  nav a {
+    width: 100%;
+    text-align: center;
+  }
+  nav div {
+    width: 100%;
+    text-align: center;
+  }
+  nav div ul li {
+    margin: 9px 0;
+  }
+  nav div ul li a {
+    padding: 5px 38%;
+    border-radius: 0;
+    border-radius: 20px;
+  }
+  nav {
+    width: 100%;
+    padding: 0;
+    margin: 10px 0 0 0;
+  }
+  footer {
+    flex-direction: column;
+    margin: 150px 0 0 0;
+    position: relative;
+  }
+  footer div {
+    width: 100%;
+  }
+  .demande {
+    padding: 10px 20px;
+  }
+  .demande div p {
+    line-height: 25px;
+    letter-spacing: normal;
+    font-size: 17px;
+  }
+  div div div div form {
+    margin: 0 5px;
+  }
+  .father,
+  .chil2,
+  .chil3 {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  section img {
+    width: 100px;
+    height: 100px;
+  }
+}
